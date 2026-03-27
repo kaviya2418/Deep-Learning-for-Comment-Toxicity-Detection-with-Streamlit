@@ -1,7 +1,9 @@
 Deep Learning for Comment Toxicity Detection
+
 📌 Project Overview
 
 This project focuses on detecting toxic comments using deep learning techniques. It analyzes user input text and predicts whether the comment is toxic or safe, along with probabilities for multiple toxicity categories.
+
 
 🎯 Objective
 
@@ -16,6 +18,7 @@ Identity Hate
 
 This helps improve online community moderation and user safety.
 
+
 🧠 Technologies Used
 Python
 TensorFlow / Keras
@@ -23,6 +26,7 @@ NLP (Text Preprocessing)
 Streamlit
 Pandas, NumPy
 Matplotlib, Seaborn
+
 📂 Dataset
 Source: Jigsaw Toxic Comment Dataset
 Contains user comments with multiple toxicity labels
@@ -46,17 +50,20 @@ Selected best model based on AUC score
 5. Deployment
 Built an interactive Streamlit web app
 Real-time prediction of user input
+
 🚀 Features
 Real-time toxicity detection
 Multi-label classification
 Clean and user-friendly UI
 Data insights visualization
+
 🖥️ Streamlit App
 Pages:
 Home – Project overview
 Data Insights – Label distribution visualization
 Prediction – Real-time comment analysis
 About – Project summary
+
 ▶️ How to Run
 1. Install dependencies
 pip install -r requirements.txt
@@ -66,11 +73,13 @@ streamlit run comment.py
 Displays:
 Toxic / Non-Toxic classification
 Probability for each label
+
 🎯 Business Use Cases
 Social media moderation
 Online forums
 E-learning platforms
 Content filtering systems
+
 🔍 Conclusion
 
 The project successfully detects toxic comments using deep learning models and provides real-time predictions through a user-friendly interface. It can be used to improve online safety and automate content moderation.
